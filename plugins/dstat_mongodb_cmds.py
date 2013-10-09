@@ -11,7 +11,7 @@ class dstat_plugin(dstat):
     Plugin for MongoDB commands.
     """
     def __init__(self):
-        self.name = 'mongodb commands'
+        self.name = 'mongodb cmds'
         self.nick = ('qry', 'ins', 'upd', 'del', 'gtm', 'cmd')
         self.vars = ('query', 'insert','update','delete','getmore','command')
         self.type = 'd'
